@@ -1,0 +1,81 @@
+body {
+    color: #e6a04a;
+    font-size: 25px;
+
+}
+
+#img1 {
+    background: url(../images/blackhole.jpeg);
+    background-repeat: no-repeat;
+    background-size: 3400px;
+    background-position-x: center;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #ffe600
+}
+
+
+
+.line {
+    background-color: rgb(128, 124, 134);
+    height: 2px;
+    border-width: 0;
+}
+
+.header {
+    text-align: justify;
+    padding-bottom: 90px;
+}
+
+
+
+.img2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+    padding-top: 80px;
+
+}
+
+
+#text {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.main {
+    text-align: justify;
+}
+
+
+#list {
+    display: flex;
+    justify-content: center;
+}
+
+
+.exploration {
+    padding-bottom: 80px;
+}
+
+a {
+    text-decoration: none;
+    color: #d09b20
+}
+
+a:hover {
+    color: #ad0404;
+}
