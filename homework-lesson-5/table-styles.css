@@ -1,0 +1,306 @@
+body {
+    background-color: #2C2C2C;
+    margin: 0%;
+}
+
+
+.table1 {
+    margin-top: 50px;
+    margin-left: 40px;
+    width: 55%;
+    border-spacing: 0px;
+    border: rgb(139, 126, 126) solid 1px;
+    border-radius: 5px;
+
+
+}
+
+
+th {
+    color: rgb(241, 224, 224);
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: left;
+    padding-left: 15px;
+    border-bottom: rgb(139, 126, 126) solid 1px;
+
+
+}
+
+
+tr {
+    border-width: 100px;
+
+
+}
+
+
+
+td {
+    color: rgb(225, 197, 197);
+    padding: 14px;
+
+}
+
+
+
+
+.td1,
+.td2,
+.td3 {
+    border-bottom: rgb(139, 126, 126) solid 1px;
+}
+
+
+.vectorimg {
+    width: 19px;
+    height: 14px;
+    transform: translateY(+20%);
+}
+
+
+
+
+.td2,
+.td4 {
+    color: rgb(139, 126, 126);
+}
+
+
+.td3,
+.td5 {
+    color: rgb(139, 126, 126);
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.date,
+.td2,
+.td4 {
+    display: flex;
+    justify-content: left;
+}
+
+
+.td1 {
+    width: 50%;
+}
+
+
+
+
+.table2 {
+    margin-top: 50px;
+    margin-left: 40px;
+    width: 55%;
+    border-spacing: 0px;
+    border: rgb(139, 126, 126) solid 1px;
+    border-radius: 5px;
+}
+
+
+
+
+.td6,
+.td7 {
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    border-bottom: rgb(139, 126, 126) solid 1px;
+
+}
+
+
+.td9 {
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+
+
+#checkbox1 {
+    height: 11px;
+
+}
+
+
+
+
+
+
+.container {
+    display: grid;
+    margin-top: 50px;
+    margin-left: 40px;
+    width: 55%;
+    border-spacing: 0px;
+    border: rgb(139, 126, 126) solid 1px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    color: white;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "fr fr fr"
+        ". . ."
+        ". . ."
+        ". . .";
+}
+
+
+
+
+.searchbox,
+.name,
+.date1,
+.date2,
+.filepdf,
+.dots {
+    border-bottom: rgb(139, 126, 126) solid 1px;
+    height: 50px;
+}
+
+
+p {
+    display: flex;
+    align-items: center;
+    margin-left: 14px;
+}
+
+
+
+.date1 {
+    display: flex;
+    justify-content: start;
+    width: auto;
+    padding-left: 35px;
+
+
+}
+
+.name,
+.date1 {
+    color: rgb(241, 224, 224);
+    font-weight: 900;
+}
+
+.name,
+.filepdf {
+    width: 380px;
+}
+
+.searchbox {
+    display: flex;
+    align-items: center;
+
+}
+
+#search {
+    height: 40px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: #3f3e3e;
+    padding-top: 3px;
+    border-width: 0px;
+    padding-left: 29px;
+}
+
+
+#search:hover {
+    border: 1px solid white;
+}
+
+
+
+::placeholder {
+    color: rgb(139, 126, 126);
+    font-weight: 700;
+    text-align: center;
+}
+
+
+input::-webkit-input-placeholder {
+    font-style: arial;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+.imgsearchbox {
+    height: 25px;
+    width: 25px;
+    z-index: 3;
+}
+
+
+.btn1 {
+    height: 41px;
+    width: 41px;
+    cursor: pointer;
+    background-color: transparent;
+    border-width: 0px;
+    transform: translateX(+90%);
+}
+
+
+
+
+
+.dots {
+    display: flex;
+    justify-content: center;
+    padding-left: 195px;
+    color: white;
+    font-size: 100;
+    font-weight: 900;
+
+}
+
+
+.vectorimg1 {
+    width: 20px;
+    height: 15px;
+    margin-left: 5px;
+}
+
+.imgpdffile {
+    height: 20px;
+    width: 25px;
+    margin-right: 7px;
+}
+
+
+.filepdf {
+    color: rgb(225, 197, 197);
+}
+
+
+.date2,
+.date3 {
+    color: rgb(139, 126, 126);
+    padding-left: 35px;
+}
+
+
+
+
+.dots1 {
+    display: flex;
+    justify-content: center;
+    padding-left: 195px;
+    color: white;
+    font-size: 100;
+    font-weight: 900;
+}
+
+
+.filepdf1 {
+    color: rgb(225, 197, 197);
+}
