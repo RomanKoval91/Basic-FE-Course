@@ -1,0 +1,297 @@
+ #searchbar {
+    height: 29px;
+    width: 216px;
+    border-radius: 3px;
+    border: 1px solid #DBDBDB;
+    display: flex;
+    position: relative;
+    font-family: 'Helvetica Neue';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: center;
+    }
+
+#searchbar:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 7px 7px #133768;
+}
+
+
+input#searchbar {
+    transform: translateY(+30%);
+}
+    
+
+
+    
+    ::placeholder {
+        padding-top: 6px;
+        padding-left: 40%;
+        height: 17px;
+    width: 45px;
+    color: #8F8F8F;
+    }
+    
+    .lens-svg {
+        height: 9px;
+        width: 9px;
+    position: absolute;
+    left: 33%;
+    top: 64%;
+    z-index: 3;
+    }
+
+
+    .icons {
+        width: 180px;
+        height: 29px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    
+    
+    .messages {
+        position: relative;
+        cursor: pointer;
+    }
+    
+    .redcircle {
+        position: absolute;
+        left: 59%;
+        top: -8%;
+        z-index: 0;
+        cursor: pointer;
+    }
+    
+    
+    .five  {
+        position: absolute;
+        left: 85%;
+        top: 8%;
+        z-index: 3;
+        cursor: pointer;
+    }
+    
+    svg:nth-child(1n+1) {
+        cursor: pointer;
+    }
+    
+    img:nth-child(1n+1) {
+        cursor: pointer;
+    }
+
+    .line {
+        height: 1px;
+        width: 100%;
+        color: #DBDBDB;
+        margin: 0;
+        }
+
+
+
+
+.container-bigimage {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.first-image {
+    border-radius: 50%;
+}
+
+.container-info {
+    margin-left: 7%;
+    margin-top: 5%;
+}
+
+.container-info-header {
+    display: flex;
+    align-items: center;
+}
+
+.h2-name {
+    margin: 0px;
+    font-family: 'Helvetica Neue';
+font-size: 26px;
+font-weight: 500;
+line-height: 32px;
+text-align: center;
+cursor: pointer;
+color: #262626;
+}
+
+.btn-primary {
+height: 29px;
+width: 97px;
+border-radius: 3px;
+margin-left: 25px;
+cursor: pointer;
+}
+
+.primary-button-text {
+    font-family: 'Helvetica Neue';
+font-size: 14px;
+font-weight: 700;
+line-height: 17px;
+}
+
+.primary-button-sign {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.btn-submit {
+    height: 29px;
+    width: 33px;
+    border-radius: 3px;
+    margin-left: 4px;
+}
+
+
+.dots {
+    margin-left: 16px;
+}
+
+.container-middle {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+
+.posts-number {
+    cursor: pointer;
+    font-family: 'Helvetica Neue';
+font-size: 17px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+color: #262626;
+}
+
+
+.followers-number {
+    cursor: pointer;
+    font-family: 'Helvetica Neue';
+font-size: 17px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+color: #262626;
+}
+
+
+.following-number {
+    cursor: pointer;
+    font-family: 'Helvetica Neue';
+font-size: 17px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+color: #262626;
+
+}
+
+
+
+.h6-name {
+    font-family: 'Helvetica Neue';
+font-size: 17px;
+font-weight: 500;
+line-height: 21px;
+text-align: left;
+color: #262626;
+}
+
+
+.container-middle-paragraph {
+    max-width: 460px;
+    font-family: 'Helvetica Neue';
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #262626;
+    margin-bottom: 0px;
+
+}
+
+.container-middle-link {
+    font-family: 'Helvetica Neue';
+font-size: 17px;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+color: #133768;
+margin-bottom: 7%;
+}
+
+
+.container-middle-link:hover {
+    color: #133768;
+}
+
+
+.container-littleimages {
+    margin-left: 3%;
+    margin-bottom: 10%;
+    max-width: 310px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-image {
+    border-radius: 50%;
+}
+
+
+.third-image {
+    border-radius: 50%;
+}
+
+
+.fourth-image {
+    border-radius: 50%;
+}
+
+.name-little-image {
+    font-family:'Helvetica Neue';
+font-size: 14px;
+font-weight: 700;
+line-height: 17px;
+text-align: center;
+color: #262626;
+}
+
+
+.cube-svg {
+    transform: translateY(-11%);
+}
+
+.person-svg {
+    transform: translateY(-11%);
+}
+
+.posts-text-center {
+    margin-right: 7%;
+}
+
+.centerline {
+    position: absolute;
+    top: -40px;
+    left: 15px;
+}
+
+@media only screen and (max-width: 720px) {
+
+.container-middle-paragraph {
+max-width: 320px;
+}
+
+}
