@@ -1,0 +1,1113 @@
+body
+ {
+    width: 100%;
+    height: 4028px;
+}
+
+
+
+.header {
+background-color: #F4F6F9;
+margin-top: 0;
+height: 16.5%;
+position: relative;
+}
+
+
+.left-block {
+    margin-left: 14.30%;
+}
+
+
+.logo_text {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1.5%;
+}
+
+
+.sports {
+    font-family: 'Lato';
+font-size: 24px;
+line-height: 29px;
+text-align: left;
+color: #5282F0;
+height: 30px;
+width: 71px;
+margin-left: 0.27%;
+position: absolute;
+top: 20px;
+left: 245px;
+}
+
+
+.first-title {
+    font-family: 'Lato';
+font-size: 36px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0.03em;
+text-align: left;
+height: 96px;
+width: 546px;
+left: 163px;
+top: 226px;
+margin-top: 133px;
+}
+
+
+.first-paragraph {
+margin-top: 4.5%;
+ height: 52px;
+width: 453px;
+font-family: 'Lato';
+font-size: 18px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+}
+
+
+.buttons-wrapper {
+    margin-top: 7.5%;
+}
+
+.google-logo {
+    cursor: pointer;
+}
+
+.apple-logo {
+    margin-right: 2.7%;
+    cursor: pointer;
+}
+
+
+.phone-images {
+position: absolute;
+right: 0%;
+top: 0%;
+}
+
+
+
+.section1 {
+    width: 100%;
+    height: 14.697%;
+    z-index: -1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 1) 100%);
+
+}
+
+.section1-leftpart {
+    position: relative;
+    height: 592px;
+    opacity: 50%;
+}
+
+
+
+
+.img-chelseavsarsenal {
+    position: absolute;
+    top: 744px;
+    left: 147px;
+    z-index: 1;
+}
+
+
+.img-goal {
+    position: absolute;
+    z-index: 0;
+    top: 961px;
+    left: 289px;
+    box-shadow: -8px 8px 8px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+.section1-rightpart {
+    width: 635px;
+    z-index: 3;
+    box-shadow: -170px 0px 80px 3px white;
+}
+
+
+.section1-title1 {
+font-family: 'Lato';
+font-size: 16px;
+font-weight: 700;
+line-height: 21px;
+text-align: left;
+color: #00ADEE;
+margin-top: 22%;
+}
+
+
+.section1-title2 {
+    font-family: 'Lato';
+font-size: 28px;
+font-weight: 700;
+line-height: 37px;
+letter-spacing: 0em;
+text-align: left;
+margin-top: 4.5%;
+}
+
+
+.section1-paragraph {
+    font-family: 'Lato';
+font-size: 16px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+height: 185px;
+width: 407px;
+color: #4F4F4F;
+margin-top: 4.5%;
+margin-bottom: 3.7%;
+}
+
+
+.learn-more {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #00ADEE;
+    text-decoration: none;
+}
+
+
+
+.section2 {
+    width: 100%;
+    height: 12.3%;
+    padding-top: 14.55%;
+    background-image: url(../images/SAMPLE05sec3-immy.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.section2-text {
+    margin-left: 14.30%;
+    position: relative;
+}
+
+.section2-title1 {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: left;
+    color: #00ADEE;
+    }
+    
+    
+    .section2-title2 {
+        font-family: 'Lato';
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 2.5%;
+    }
+    
+    
+    .section2-paragraph {
+        font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 480px;
+    height: 139px;
+    color: #4F4F4F;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    }
+
+
+
+    .learn-more1 {
+        text-decoration: none;
+        height: 22px;
+        width: 582px;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 21px;
+        text-align: left;
+        color: #00ADEE;
+        position: absolute;
+        top: 280px;
+    }
+
+
+    .learn-more2 {
+        text-decoration: none;
+        height: 22px;
+        width: 582px;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 21px;
+        text-align: left;
+        color: #00ADEE;
+        position: absolute;
+     
+    }
+
+
+.section3 {
+    width: 100%;
+    height: 18.24%;
+    background-image: url(../images/Group\ 696background-sec3.png);
+}
+
+.section3-title {
+    height: 37px;
+font-family: 'Lato';
+font-size: 28px;
+font-weight: 700;
+line-height: 37px;
+text-align: left;
+color: white;
+text-align: center;
+padding-top: 5.34%;
+margin: 0 auto;
+margin-bottom: 2.9%;
+}
+
+
+.sec3-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 90px;
+    grid-row-gap: 20px;
+    margin-left: 14.3%;
+    margin-right: 14.3%;
+  }
+
+    .div1 { grid-area: 1 / 1 / 2 / 2;
+    color: white;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+     }
+
+    
+   
+
+
+    .div2 { grid-area: 1 / 2 / 2 / 3;
+        color: white;
+        font-family: 'Lato';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: left; }
+    .div3 { grid-area: 1 / 3 / 2 / 4;
+        color: white;
+        font-family: 'Lato';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: left; }
+    .div4 { grid-area: 2 / 1 / 3 / 2;
+        color: white;
+        font-family: 'Lato';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: left; }
+    .div5 { grid-area: 2 / 2 / 3 / 3;color: white;
+        font-family: 'Lato';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: left; }
+    .div6 { grid-area: 2 / 3 / 3 / 4;
+        color: white;
+        font-family: 'Lato';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: left; }
+    .div7 { grid-area: 3 / 1 / 4 / 2;
+        color: white;
+        font-family: 'Lato';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: left; }
+    .div8 { grid-area: 3 / 2 / 4 / 3;
+        color: white;
+        font-family: 'Lato';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: left; }
+    .div9 { grid-area: 3 / 3 / 4 / 4;
+        color: white;
+        font-family: 'Lato';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: left; }
+
+
+.section4 {
+width: 100%;
+height: 10.7%;
+display: flex;
+align-items: center;
+flex-direction: column;
+position: relative;
+}
+
+
+.title-section4 {
+    height: 37px;
+    width: 252px;
+    font-family: 'Lato';
+font-size: 28px;
+font-weight: 700;
+line-height: 37px;
+text-align: center;
+margin-top: 4%;
+margin-bottom: 4%;
+
+}
+
+
+.section4-reviews {
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+
+.left-vector {
+    position: absolute;
+    left: 95px;
+    bottom: 150px;
+    cursor: pointer;
+}
+
+
+.right-vector {
+    position: absolute;
+    right: 195px;
+    bottom: 150px;
+    cursor: pointer;
+}
+
+
+.dots {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+}
+
+
+.dot {
+    margin-right: 11px;
+    cursor: pointer;
+}
+
+
+.section5 {
+    height: 6.9%;
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 4.3%;
+    position: relative;
+}
+
+.title-section5 {
+height: 37px;
+width: 320px;
+font-family: 'Lato';
+font-size: 28px;
+font-weight: 700;
+line-height: 37px;
+text-align: center;
+color: #333333;
+margin-top: 3.5%;
+}
+
+
+.logos-list {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 6%;
+}
+
+
+.section6 {
+    max-width: 320px;
+    height: 12%;
+    display: flex;
+    flex-direction: row;
+}
+
+.sec6-text {
+margin-top: 9.4%;
+margin-left: 5.3%;
+}
+
+.sec6-title {
+    height: 37px;
+width: 554px;
+font-family: 'Lato';
+font-size: 28px;
+font-weight: 700;
+line-height: 37px;
+text-align: left;
+color: #333333;
+margin-bottom: 35px;
+}
+
+
+.sec6-p {
+height: 125px;
+width: 535px;
+font-family: 'Lato';
+font-size: 16px;
+font-weight: 400;
+line-height: 25px;
+text-align: left;
+color: #4F4F4F;
+margin-bottom: 7%;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.apple-store {
+    margin-right: 5.8%;
+    cursor: pointer;
+}
+
+.google-play {
+    cursor: pointer;
+}
+
+.footer {
+    width: 100%;
+    height: 3.15%;
+    background-color: #00ADEE;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-1block {
+    margin-left: 14.3%;
+}
+
+
+.sports-footer {
+    font-family: 'Lato';
+font-size: 24px;
+line-height: 29px;
+text-align: left;
+color: #5282F0;
+height: 30px;
+width: 71px;
+margin-left: 0.27%;
+position: absolute;
+left: 245px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.download {
+    margin-right: 36px;
+}
+
+.download-text {
+    text-decoration: none;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: left;
+    color: white;
+}
+
+.support {
+    margin-right: 36px;
+}
+
+
+
+.developer {
+    margin-right: 36px;
+}
+
+
+.privacy {
+    margin-right: 36px;
+}
+
+
+.footer-3block {
+    display: flex;
+    flex-direction: row;
+    margin-right: 14.3%;
+}
+
+.footer-icon {
+    margin-right: 14px;
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 720px) {
+body {
+    height: 5150px;}
+
+.header {
+    background-color: #F4F6F9;
+    margin-top: 0;
+    margin-left: 0px;
+    height: 525px;
+    position: relative;
+    }
+
+.phone-images {
+    display: none;
+}
+
+
+.logo_text {
+    width: 320px;
+    display: flex;
+    margin-left: 0px;
+    justify-content: center;
+    transform: translateX(-17.5%);
+    position: absolute;
+    left: 12%;
+}
+
+.sports {
+    position: absolute;
+    left: 190px;
+    top: 7px;
+    margin-bottom: 86px;
+}
+
+  
+
+
+.first-title {
+    height: 119px;
+    width: 320px;
+    position: absolute;
+    left: 0px;
+    top: -50px;
+    text-align: center;
+}
+
+
+.first-paragraph {
+    text-align: center;
+position: absolute;
+height: 70px;
+width: 320px;
+top: 290px;
+left: -5px;
+}
+
+
+.buttons-wrapper {
+    width: 320px;
+    display: flex;
+    flex-direction: row;
+    height: 44px;
+    position: absolute;
+    left: 20px;
+    top: 400px;
+}
+
+.section1 {
+    position: relative;
+}
+
+.section1-leftpart {
+    position: relative;
+    max-width: 320px;
+    opacity: 50%;
+}
+
+.section1-rightpart {
+position: absolute;
+left: 0px;
+max-width: 320px;
+}
+
+.section1-title1 {
+    height: 22px;
+    text-align: center;
+    
+}
+
+.section1-title2 {
+    height: 74px;
+text-align: center;
+}
+
+.section1-paragraph {
+height: 208px;
+text-align: center;
+max-width: 320px;
+}
+
+.learn-more {
+position: absolute;
+left: 120px;
+}
+
+.ronaldo-img {
+position: absolute;
+height: 345px;
+width: 360px;
+left: 0px;
+top: 550px;
+}
+
+p {
+    max-width: 360px;
+}
+
+.img-chelseavsarsenal {
+    position: absolute;
+    height: 149.57806396484375px;
+width: 247.21029663085938px;
+left: -20px;
+top: 600px;
+border-radius: 2.7453064918518066px;
+}
+
+.img-goal {
+    position: absolute;
+height: 100px;
+width: 194px;
+left: 130px;
+top: 700px;
+border-radius: 2.7453064918518066px;
+}
+
+.section2 {
+    width: 360px;
+    height: 1200px;
+    position: relative;
+    top: -160px;
+    left: -60px;
+    display: flex;
+   align-items: center;
+}
+
+.section2-title1 {
+    height: 22px;
+    max-width: 320px;
+  text-align: center;
+  margin-bottom: 27px;   
+}
+
+.section2-title2 {
+    height: 37px;
+max-width: 320px;
+text-align: center;
+margin-bottom: 27px;  
+}
+
+.section2-paragraph {
+    height: 208px;
+width: 320px;
+text-align: center;
+margin-left: 3px;
+}
+
+.learn-more1 {
+    width: 90px;
+    text-align: center;
+    position: absolute;
+    left: 120px;
+    top: 350px;
+    }
+
+  
+
+.section2 {
+    width: 360px;
+    background-image: url(../images/SAMPLE05sec3-immy.png);
+    background-repeat: no-repeat;
+    background-position: 80% 105%;
+    background-size: 950px;
+}
+
+.section3 {
+background-image: none;
+width: 360px;
+height: 1550px;
+background-color: #FAFAFA;
+position: relative;
+}
+
+.section3-title {
+    color: black;
+    margin-bottom: 57px;
+}
+
+.sec3.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+    }
+    
+    .div1 { 
+        text-align: center;
+        width: 320px;
+        color: black;
+        grid-area: 1 / 1 / 2 / 2;
+        position: absolute;
+        left: 10px;
+        top: 150px; 
+}
+
+    .div1-dot {
+    display: none;}
+
+    .div1-svg {
+        filter: invert(48%) sepia(97%) saturate(1817%) hue-rotate(162deg) brightness(98%) contrast(101%);
+    }
+
+    .div2 { color: black;
+        text-align: center;
+        margin-top: 26px;
+        width: 320px;
+        position: absolute;
+        left: 10px;
+        top: 250px; 
+        grid-area: 2 / 1 / 3 / 2; }
+
+    .div2-dot {
+        display: none;
+    }
+
+    .div2-svg {
+        filter: invert(48%) sepia(97%) saturate(1817%) hue-rotate(162deg) brightness(98%) contrast(101%);
+    }
+
+    .div3 { color: black;
+        width: 320px;
+        margin-top: 26px;
+        text-align: center;
+        position: absolute;
+        left: 10px;
+        top: 400px;
+        grid-area: 3 / 1 / 4 / 2; }
+
+    .div3-dot {
+
+        display: none;
+    }
+
+    .div3-svg {
+        filter: invert(48%) sepia(97%) saturate(1817%) hue-rotate(162deg) brightness(98%) contrast(101%);
+    }
+        
+    .div4 { grid-area: 4 / 1 / 5 / 2;
+        color: black;
+        width: 320px;
+        margin-top: 26px;
+        text-align: center;
+        position: absolute;
+        left: 10px;
+        top: 580px;
+     }
+   
+    .div4-dot {
+        display: none;
+    }
+
+    .div4-svg {
+        filter: invert(48%) sepia(97%) saturate(1817%) hue-rotate(162deg) brightness(98%) contrast(101%);
+    }
+
+    .div5 { grid-area: 5 / 1 / 6 / 2;
+        color: black;
+        width: 320px;
+        margin-top: 26px;
+        text-align: center;
+        position: absolute;
+        left: 10px;
+        top: 730px; }
+
+    .div5-dot {
+        display: none;
+    }
+
+    .div5-svg {
+        filter: invert(48%) sepia(97%) saturate(1817%) hue-rotate(162deg) brightness(98%) contrast(101%);
+    }
+
+    .div6 { grid-area: 6 / 1 / 7 / 2;
+        color: black;
+        width: 320px;
+        margin-top: 26px;
+        text-align: center;
+        position: absolute;
+        left: 10px;
+        top: 910px; }
+
+    .div6-dot {
+        display: none;
+    }
+
+    .div6-svg {
+        filter: invert(48%) sepia(97%) saturate(1817%) hue-rotate(162deg) brightness(98%) contrast(101%);
+    }
+
+    .div7 { grid-area: 7 / 1 / 8 / 2;
+        color: black;
+        width: 320px;
+        margin-top: 26px;
+        text-align: center;
+        position: absolute;
+        left: 10px;
+        top: 1060px; }
+
+    .div7-dot {
+        display: none;
+    }
+
+    .div7-svg {
+        filter: invert(48%) sepia(97%) saturate(1817%) hue-rotate(162deg) brightness(98%) contrast(101%);
+    }
+
+    .div8 { grid-area: 8 / 1 / 9 / 2;
+        color: black;
+        width: 320px;
+        margin-top: 26px;
+        text-align: center;
+        position: absolute;
+        left: 10px;
+        top: 1210px;
+     }
+
+    .div8-dot {
+        display: none;
+    }
+
+    .div8-svg {
+        filter: invert(48%) sepia(97%) saturate(1817%) hue-rotate(162deg) brightness(98%) contrast(101%);
+    }
+
+    .div9 { grid-area: 9 / 1 / 10 / 2;
+        color: black;
+        width: 320px;
+        margin-top: 26px;
+        text-align: center;
+        position: absolute;
+        left: 10px;
+        top: 1350px; }
+    
+    .div9-dot {
+        display: none;
+    }
+
+    .div9-svg {
+        filter: invert(48%) sepia(97%) saturate(1817%) hue-rotate(162deg) brightness(98%) contrast(101%);
+    }
+
+    .section4 {
+        position: relative;
+        height: 302px;
+    }
+
+    .title-section4 {
+        margin-left: -50px;
+    }
+
+
+
+    .first-review,
+    .second-review,
+    .fourth-review,
+    .fifth-review, 
+    .left-vector {
+        display: none;
+    }
+
+    .third-review {
+        position: absolute;
+        left: 10px;
+    }
+
+    .right-vector {
+     position: absolute;
+     top: 120px;
+     left: 280px;
+    }
+
+    .dots {
+        position: absolute;
+        top: 247px;
+    }
+
+    .section5 {
+        height: 409px;
+max-width: 320px;
+position: relative;
+padding: 0px;
+    }
+
+
+
+    .title-section5 {
+        position: absolute;
+        left: -5px;
+    }
+
+.logos-list {
+width: 300px;
+height: 300px;
+    display: flex;
+flex-wrap: wrap;
+margin-top: 107px;
+justify-content: space-around;
+}
+    
+
+    .section6 {display: flex;
+        flex-direction: row-reverse;
+        position: relative;
+        
+    }
+    .section6-image {
+    height: 361px;
+width: 360px;
+position: absolute;
+top: 194px;
+left: 0px;
+    }
+
+    .sec6-text {
+        height: 350px;
+
+    }
+
+     .sec6-title {
+        text-align: center;
+        max-width: 320px;
+        margin-left: -10px;
+     }
+
+     .sec6-p {
+        text-align: center;
+        max-width: 320px;
+        margin-left: 0px;
+     }
+
+    .buttons {
+        position: absolute;
+        top: 300px;
+        left: 5px;
+
+    }
+    
+    .footer {
+        position: relative;
+        width: 360px;
+        height: 210px;
+        top: 95px;
+        left: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-1block {
+        position: absolute;
+        left: -130px;
+        top: 43px;
+    }
+
+
+    .sports-footer {
+       transform: translateX(-80%);
+       color: white;
+    }
+
+    .footer-2block {
+        position: absolute;
+        left: 0px;
+        bottom: 43px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    ul {
+        max-width: 75%;
+    }
+
+li {
+    max-width: 50px;
+}
+
+
+    .footer-3block
+
+    {
+        position: absolute;
+        left: 25px;
+        bottom: 93px;
+
+    }
+
+
+    }
+
+
+        
+
+
